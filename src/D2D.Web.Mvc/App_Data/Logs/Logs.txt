@@ -1,0 +1,1115 @@
+﻿DEBUG 2017-07-08 16:56:30,835 [1    ] Abp.Modules.AbpModuleManager             - Loading Abp modules...
+DEBUG 2017-07-08 16:56:31,148 [1    ] Abp.Modules.AbpModuleManager             - Found 14 ABP modules in total.
+DEBUG 2017-07-08 16:56:31,179 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: D2D.Web.Startup.D2DWebMvcModule, D2D.Web.Mvc, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: D2D.D2DWebCoreModule, D2D.Web.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,186 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: D2D.D2DApplicationModule, D2D.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: D2D.D2DCoreModule, D2D.Core, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,187 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCoreModule, Abp.ZeroCore, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.AbpZeroCommonModule, Abp.Zero.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,188 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AbpKernelModule, Abp, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,189 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AutoMapper.AbpAutoMapperModule, Abp.AutoMapper, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: D2D.EntityFrameworkCore.D2DEntityFrameworkModule, D2D.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,190 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Zero.EntityFrameworkCore.AbpZeroCoreEntityFrameworkCoreModule, Abp.ZeroCore.EntityFrameworkCore, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFrameworkCore.AbpEntityFrameworkCoreModule, Abp.EntityFrameworkCore, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,191 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.EntityFramework.AbpEntityFrameworkCommonModule, Abp.EntityFramework.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.AspNetCore.AbpAspNetCoreModule, Abp.AspNetCore, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,192 [1    ] Abp.Modules.AbpModuleManager             - Loaded module: Abp.Web.AbpWebCommonModule, Abp.Web.Common, Version=2.1.2.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:31,199 [1    ] Abp.Modules.AbpModuleManager             - 14 modules loaded.
+DEBUG 2017-07-08 16:56:31,338 [1    ] o.Configuration.LanguageManagementConfig - Converted Abp (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-08 16:56:31,338 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpZero (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-08 16:56:31,338 [1    ] o.Configuration.LanguageManagementConfig - Converted D2D (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-08 16:56:31,338 [1    ] o.Configuration.LanguageManagementConfig - Converted AbpWeb (Abp.Localization.Dictionaries.DictionaryBasedLocalizationSource) to MultiTenantLocalizationSource
+DEBUG 2017-07-08 16:56:32,170 [1    ] ameworkCore.AbpEntityFrameworkCoreModule - Registering DbContext: D2D.EntityFrameworkCore.D2DDbContext, D2D.EntityFrameworkCore, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null
+DEBUG 2017-07-08 16:56:33,380 [1    ] Abp.Localization.LocalizationManager     - Initializing 4 localization sources.
+DEBUG 2017-07-08 16:56:34,641 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: Abp
+DEBUG 2017-07-08 16:56:34,652 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpZero
+DEBUG 2017-07-08 16:56:34,742 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: D2D
+DEBUG 2017-07-08 16:56:34,747 [1    ] Abp.Localization.LocalizationManager     - Initialized localization source: AbpWeb
+DEBUG 2017-07-08 16:56:34,862 [1    ] Abp.BackgroundJobs.BackgroundJobManager  - Start background worker: Abp.BackgroundJobs.BackgroundJobManager
+DEBUG 2017-07-08 16:56:35,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - Found 8 classes define auto mapping attributes
+DEBUG 2017-07-08 16:56:35,240 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.Models.TokenAuth.ExternalLoginProviderInfoModel
+DEBUG 2017-07-08 16:56:35,250 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.Users.Dto.CreateUserInput
+DEBUG 2017-07-08 16:56:35,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.Users.Dto.UserListDto
+DEBUG 2017-07-08 16:56:35,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.Sessions.Dto.TenantLoginInfoDto
+DEBUG 2017-07-08 16:56:35,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.Sessions.Dto.UserLoginInfoDto
+DEBUG 2017-07-08 16:56:35,251 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.MultiTenancy.Dto.CreateTenantInput
+DEBUG 2017-07-08 16:56:35,252 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.MultiTenancy.Dto.TenantListDto
+DEBUG 2017-07-08 16:56:35,253 [1    ] Abp.AutoMapper.AbpAutoMapperModule       - D2D.Web.Views.Shared.Components.TenantChange.TenantChangeViewModel
+INFO  2017-07-08 16:56:50,406 [1    ] pendencyInjection.DataProtectionServices - User profile is available. Using 'C:\Users\Ovca\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+DEBUG 2017-07-08 16:56:50,567 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting starting
+DEBUG 2017-07-08 16:56:50,968 [1    ] soft.AspNetCore.Hosting.Internal.WebHost - Hosting started
+DEBUG 2017-07-08 16:56:51,082 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" started.
+INFO  2017-07-08 16:56:51,354 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2017-07-08 16:56:51,788 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2017-07-08 16:56:52,585 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:56:54,409 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc)
+WARN  2017-07-08 16:56:55,207 [10   ] Mvc.Authorization.AbpAuthorizationFilter - Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext()
+Abp.Authorization.AbpAuthorizationException: Current user did not login to the application!
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__19.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<CheckPermissions>d__22.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AuthorizationHelper.<AuthorizeAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter.<OnAuthorizationAsync>d__8.MoveNext()
+INFO  2017-07-08 16:56:55,223 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Authorization failed for the request at filter 'Abp.AspNetCore.Mvc.Authorization.AbpAuthorizationFilter'.
+INFO  2017-07-08 16:56:55,230 [10   ] Microsoft.AspNetCore.Mvc.ChallengeResult - Executing ChallengeResult with authentication schemes ().
+INFO  2017-07-08 16:56:55,274 [10   ] entication.JwtBearer.JwtBearerMiddleware - AuthenticationScheme: Bearer was challenged.
+INFO  2017-07-08 16:56:55,294 [10   ] n.Cookies.CookieAuthenticationMiddleware - AuthenticationScheme: Identity.Application was challenged.
+INFO  2017-07-08 16:56:55,393 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc) in 886.5893ms
+DEBUG 2017-07-08 16:56:55,570 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:56:55,575 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4273.8984ms 302 
+INFO  2017-07-08 16:56:55,685 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Account/Login?ReturnUrl=%2F  
+DEBUG 2017-07-08 16:56:55,690 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /Account/Login does not match a supported file type
+DEBUG 2017-07-08 16:56:55,691 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:56:55,692 [11   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:56:55,692 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:56:55,704 [11   ] t.AspNetCore.Mvc.Internal.ActionSelector - Action 'D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc)' with id '0c4ce484-d7f8-4f6c-8063-1a7452869b55' did not match the constraint 'Microsoft.AspNetCore.Mvc.Internal.HttpMethodActionConstraint'
+DEBUG 2017-07-08 16:56:55,712 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc)
+INFO  2017-07-08 16:56:57,800 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) with arguments (, /, ) - ModelState is Valid
+DEBUG 2017-07-08 16:56:57,812 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2017-07-08 16:57:01,075 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Login' in controller 'Account'.
+DEBUG 2017-07-08 16:57:01,141 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/Login.cshtml' started.
+DEBUG 2017-07-08 16:57:02,102 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/Login.cshtml' completed in 960.8271ms.
+DEBUG 2017-07-08 16:57:02,129 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' started.
+DEBUG 2017-07-08 16:57:10,808 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/Login.cshtml' completed in 8677.8178ms.
+DEBUG 2017-07-08 16:57:10,824 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_ViewStart.cshtml' started.
+DEBUG 2017-07-08 16:57:10,844 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_ViewStart.cshtml' completed in 20.332ms.
+DEBUG 2017-07-08 16:57:10,845 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_ViewStart.cshtml' started.
+DEBUG 2017-07-08 16:57:10,923 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_ViewStart.cshtml' completed in 77.88ms.
+DEBUG 2017-07-08 16:57:10,925 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2017-07-08 16:57:10,941 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/_ViewStart.cshtml' completed in 16.2592ms.
+DEBUG 2017-07-08 16:57:10,942 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' started.
+DEBUG 2017-07-08 16:57:11,006 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/_ViewStart.cshtml' completed in 63.7602ms.
+DEBUG 2017-07-08 16:57:11,017 [9    ] ViewFeatures.Internal.ViewResultExecutor - The view 'Login' was found.
+INFO  2017-07-08 16:57:11,018 [9    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Account/Login.cshtml.
+DEBUG 2017-07-08 16:57:11,279 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\Ovca\AppData\Local\ASP.NET\DataProtection-Keys\key-0c155c09-318c-4c6b-bf44-b0f58dad26e1.xml'.
+DEBUG 2017-07-08 16:57:11,317 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\Ovca\AppData\Local\ASP.NET\DataProtection-Keys\key-26375192-5294-4e24-bd50-47f8c59ea4da.xml'.
+DEBUG 2017-07-08 16:57:11,349 [9    ] ion.Repositories.FileSystemXmlRepository - Reading data from file 'C:\Users\Ovca\AppData\Local\ASP.NET\DataProtection-Keys\key-c5e4638c-996c-471e-a79c-7e267db0cbdf.xml'.
+DEBUG 2017-07-08 16:57:11,401 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {0c155c09-318c-4c6b-bf44-b0f58dad26e1}.
+DEBUG 2017-07-08 16:57:11,417 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {26375192-5294-4e24-bd50-47f8c59ea4da}.
+DEBUG 2017-07-08 16:57:11,418 [9    ] taProtection.KeyManagement.XmlKeyManager - Found key {c5e4638c-996c-471e-a79c-7e267db0cbdf}.
+DEBUG 2017-07-08 16:57:11,430 [9    ] tection.KeyManagement.DefaultKeyResolver - Considering key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with expiration date 2017-09-22 10:07:05Z as default key.
+DEBUG 2017-07-08 16:57:11,442 [9    ] otection.XmlEncryption.DpapiXmlDecryptor - Decrypting secret element using Windows DPAPI.
+DEBUG 2017-07-08 16:57:11,456 [9    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'AES' from provider '(null)' with chaining mode CBC.
+DEBUG 2017-07-08 16:57:11,465 [9    ] l.CngCbcAuthenticatedEncryptorDescriptor - Opening CNG algorithm 'SHA256' from provider '(null)' with HMAC.
+DEBUG 2017-07-08 16:57:11,482 [9    ] Protection.KeyManagement.KeyRingProvider - Using key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} as the default key.
+DEBUG 2017-07-08 16:57:11,488 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:57:11,496 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:57:11,507 [9    ] .Antiforgery.Internal.DefaultAntiforgery - A new antiforgery cookie token was created.
+DEBUG 2017-07-08 16:57:11,573 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_Layout.cshtml' started.
+DEBUG 2017-07-08 16:57:11,682 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Account/_Layout.cshtml' completed in 109.3011ms.
+DEBUG 2017-07-08 16:57:11,682 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_Layout.cshtml' started.
+DEBUG 2017-07-08 16:57:12,110 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Account/_Layout.cshtml' completed in 427.6549ms.
+DEBUG 2017-07-08 16:57:12,585 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.TenantChange.TenantChangeViewComponent with arguments ().
+DEBUG 2017-07-08 16:57:12,672 [9    ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.TenantChange.TenantChangeViewComponent in 83.2486ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:57:12,682 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TenantChange/Default' in controller 'Account'.
+DEBUG 2017-07-08 16:57:12,683 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' started.
+DEBUG 2017-07-08 16:57:12,733 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' completed in 49.7242ms.
+DEBUG 2017-07-08 16:57:12,733 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' started.
+DEBUG 2017-07-08 16:57:12,841 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TenantChange/Default.cshtml' completed in 107.6798ms.
+DEBUG 2017-07-08 16:57:12,917 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.AccountLanguages.AccountLanguagesViewComponent with arguments ().
+DEBUG 2017-07-08 16:57:12,924 [9    ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.AccountLanguages.AccountLanguagesViewComponent in 7.4749ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:57:12,925 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/AccountLanguages/Default' in controller 'Account'.
+DEBUG 2017-07-08 16:57:12,928 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/AccountLanguages/Default.cshtml' started.
+DEBUG 2017-07-08 16:57:12,957 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/AccountLanguages/Default.cshtml' completed in 29.0389ms.
+DEBUG 2017-07-08 16:57:12,957 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/AccountLanguages/Default.cshtml' started.
+DEBUG 2017-07-08 16:57:13,094 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/AccountLanguages/Default.cshtml' completed in 136.3473ms.
+INFO  2017-07-08 16:57:13,634 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) in 17920.889ms
+DEBUG 2017-07-08 16:57:13,642 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:57:13,642 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17956.3906ms 200 text/html; charset=utf-8
+DEBUG 2017-07-08 16:57:14,110 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" started.
+DEBUG 2017-07-08 16:57:14,110 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" started.
+DEBUG 2017-07-08 16:57:14,111 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" started.
+DEBUG 2017-07-08 16:57:14,111 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" started.
+DEBUG 2017-07-08 16:57:14,111 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" started.
+INFO  2017-07-08 16:57:14,133 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.css?v=itf5z7ZYEw2uY0m8Ok4hfuPi_GrumbGhHPlqyC4LWzw  
+INFO  2017-07-08 16:57:14,134 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.css?v=W8a9WvLyUO7CXtOC4f9LoUMwkywM7JSq-Xm5kNsYW08  
+INFO  2017-07-08 16:57:14,135 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/roboto.css?v=DWPiEyLnt8XZ68WQeudmZPGSejowhmQNUUhaX8dYF1Q  
+INFO  2017-07-08 16:57:14,137 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/css/bootstrap.css?v=rYUBh-J0b_zGCzbG02wJhid-ncHyd0BsoUYpjLLSowk  
+INFO  2017-07-08 16:57:14,157 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\fonts\material-icons\materialicons.css'
+INFO  2017-07-08 16:57:14,157 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/roboto.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\fonts\roboto\roboto.css'
+INFO  2017-07-08 16:57:14,157 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\toastr\toastr.css'
+INFO  2017-07-08 16:57:14,160 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/css/bootstrap.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\bootstrap\dist\css\bootstrap.css'
+INFO  2017-07-08 16:57:14,185 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css?v=l7wu43l7XpKWzFn29hiH8AFe4I_CNzbCPmaAQivPYMg  
+INFO  2017-07-08 16:57:14,186 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.css'
+DEBUG 2017-07-08 16:57:14,187 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:57:14,187 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.1688ms 200 text/css
+INFO  2017-07-08 16:57:14,187 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert.css?v=k66BSDvi6XBdtM2RH6QQvCz2wk81XcWsiZ3kn6uFTmM  
+INFO  2017-07-08 16:57:14,188 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert.css'
+DEBUG 2017-07-08 16:57:14,189 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:57:14,189 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.4795ms 200 text/css
+DEBUG 2017-07-08 16:57:14,190 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:57:14,190 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.2336ms 200 text/css
+DEBUG 2017-07-08 16:57:14,191 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:14,191 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 56.8681ms 200 text/css
+DEBUG 2017-07-08 16:57:14,194 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:57:14,194 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 59.5492ms 200 text/css
+DEBUG 2017-07-08 16:57:14,237 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:57:14,238 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 100.4326ms 200 text/css
+INFO  2017-07-08 16:57:14,273 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/css/font-awesome.css?v=uXf0U0UCIqBp2J3S53b28h-fpC9uFcA8f-b_NNmiwVk  
+INFO  2017-07-08 16:57:14,274 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/css/font-awesome.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\font-awesome\css\font-awesome.css'
+DEBUG 2017-07-08 16:57:14,276 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:57:14,277 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 3.5126ms 200 text/css
+INFO  2017-07-08 16:57:14,290 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.css?v=0zP86LzXedNkkBjePtKrMTAPuIy6EzHfGlyYvsmGLBw  
+INFO  2017-07-08 16:57:14,290 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/animate.css/animate.css?v=00w68NO3TLuHjKRHJmjrrgJBDtG_6OhbJEu1gtHcsuo  
+INFO  2017-07-08 16:57:14,291 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/animate.css/animate.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\animate.css\animate.css'
+INFO  2017-07-08 16:57:14,291 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\Waves\dist\waves.css'
+INFO  2017-07-08 16:57:14,291 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/materialize.css?v=OdWlipUYj8b9Oa4RyT45njteIcxH-4pGocqe0r0V8js  
+INFO  2017-07-08 16:57:14,293 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/materialize.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\css\materialize.css'
+DEBUG 2017-07-08 16:57:14,293 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:57:14,303 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.1487ms 200 text/css
+DEBUG 2017-07-08 16:57:14,304 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:14,304 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.8657ms 200 text/css
+DEBUG 2017-07-08 16:57:14,307 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:57:14,307 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.0092ms 200 text/css
+INFO  2017-07-08 16:57:14,389 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/style.css?v=yL1_ikVC9k-ZNukgUJ_Jk9cK0TBzvJLMIohPbHrAf0g  
+INFO  2017-07-08 16:57:14,395 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/style.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\css\style.css'
+INFO  2017-07-08 16:57:14,396 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.css?v=Hq5aBVr9vqsOYI_zoZha7PxZnLUdiilICi-gjP3RrfU  
+INFO  2017-07-08 16:57:14,396 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Account\Login.css'
+DEBUG 2017-07-08 16:57:14,397 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:14,397 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.1127ms 200 text/css
+INFO  2017-07-08 16:57:14,412 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/_Layout.css?v=vIEtxnpR3ZrYbYcueRr_mJ9XuJJzDprh4sMCwvRBcqk  
+INFO  2017-07-08 16:57:14,413 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/_Layout.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Account\_Layout.css'
+DEBUG 2017-07-08 16:57:14,416 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:57:14,417 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.5624ms 200 text/css
+INFO  2017-07-08 16:57:14,417 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/json2/json2.js?v=EZJ68U7eUi8uSP0MRRUalYten2eOlhREE9kJOIbIeYg  
+INFO  2017-07-08 16:57:14,418 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/json2/json2.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\json2\json2.js'
+INFO  2017-07-08 16:57:14,419 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery/dist/jquery.js?v=oYqpLeqZe9cetUDV-TFiBZHp3uJ-X4F5eLs4W6uSTSE  
+INFO  2017-07-08 16:57:14,420 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery/dist/jquery.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\jquery\dist\jquery.js'
+DEBUG 2017-07-08 16:57:14,422 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:57:14,428 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.8652ms 200 text/css
+DEBUG 2017-07-08 16:57:14,429 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:57:14,429 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.565ms 200 application/javascript
+DEBUG 2017-07-08 16:57:14,427 [3    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:57:14,437 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 20.3755ms 200 application/javascript
+INFO  2017-07-08 16:57:14,500 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap/dist/js/bootstrap.js?v=3vw5dArBhZ2OJ4XtRzIIQJYn6Hrd1fePLeqsuToS1R0  
+INFO  2017-07-08 16:57:14,500 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap/dist/js/bootstrap.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\bootstrap\dist\js\bootstrap.js'
+INFO  2017-07-08 16:57:14,504 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-validation/dist/jquery.validate.js?v=KuzD50lDGNI5jq_ipt4hwDpSJk3fhseTR1jdvaBoZLs  
+INFO  2017-07-08 16:57:14,504 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-validation/dist/jquery.validate.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\jquery-validation\dist\jquery.validate.js'
+INFO  2017-07-08 16:57:14,505 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/moment/min/moment-with-locales.js?v=7CN4bWPV0U57HDA4YjdCBKCAynhqdWErjNn-5rrsW_I  
+INFO  2017-07-08 16:57:14,505 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/moment/min/moment-with-locales.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\moment\min\moment-with-locales.js'
+DEBUG 2017-07-08 16:57:14,506 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:14,506 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.5588ms 200 application/javascript
+DEBUG 2017-07-08 16:57:14,527 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:57:14,527 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 27.6716ms 200 application/javascript
+DEBUG 2017-07-08 16:57:14,602 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:57:14,602 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 96.7977ms 200 application/javascript
+INFO  2017-07-08 16:57:14,611 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/blockUI/jquery.blockUI.js?v=oQaw-JJuUcJQ9QVYMcFnPxICDT-hv8-kuxT2FNzTGhc  
+INFO  2017-07-08 16:57:14,612 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/blockUI/jquery.blockUI.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\blockUI\jquery.blockUI.js'
+DEBUG 2017-07-08 16:57:14,613 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:57:14,618 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.0334ms 200 application/javascript
+INFO  2017-07-08 16:57:14,695 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/toastr/toastr.js?v=C7DJ6LzTt1Hvj9fd-yRnySs3I4T2B8XmQ3TqXQjc00g  
+INFO  2017-07-08 16:57:14,695 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/spin.js?v=GySbz3oZXNlwoawo5PpYy0iM38B-q3jyi_HLw00uxy0  
+INFO  2017-07-08 16:57:14,695 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/spin.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\spin.js\spin.js'
+INFO  2017-07-08 16:57:14,697 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/toastr/toastr.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\toastr\toastr.js'
+DEBUG 2017-07-08 16:57:14,697 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:57:14,697 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.562ms 200 application/javascript
+INFO  2017-07-08 16:57:14,699 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/sweetalert/dist/sweetalert-dev.js?v=Y6AEuvugryve80FgzPE3e2EONgfiYPcaSaqF-vIFGIA  
+INFO  2017-07-08 16:57:14,699 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/sweetalert/dist/sweetalert-dev.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\sweetalert\dist\sweetalert-dev.js'
+DEBUG 2017-07-08 16:57:14,705 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:57:14,705 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 6.8884ms 200 application/javascript
+DEBUG 2017-07-08 16:57:14,788 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:14,789 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 94.6234ms 200 application/javascript
+INFO  2017-07-08 16:57:14,794 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/spin.js/jquery.spin.js?v=EG38bUU5b2M64hy9cNAzu_cQBEsiBYsDifOcoHqNd2k  
+INFO  2017-07-08 16:57:14,802 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/spin.js/jquery.spin.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\spin.js\jquery.spin.js'
+INFO  2017-07-08 16:57:14,806 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Waves/dist/waves.js?v=Lar7zQhqgdoUsaqhuwkgnWgsC-eRWIxHhJPV-QtrDog  
+INFO  2017-07-08 16:57:14,807 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Waves/dist/waves.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\Waves\dist\waves.js'
+DEBUG 2017-07-08 16:57:14,808 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:57:14,808 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7454ms 200 application/javascript
+DEBUG 2017-07-08 16:57:14,809 [21   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:57:14,809 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.9861ms 200 application/javascript
+INFO  2017-07-08 16:57:14,842 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/abp.js?v=8Fv5Ryar8BgkV6_q_U-zsW2dA57HxErdoXVKogeTUy4  
+INFO  2017-07-08 16:57:14,842 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js?v=771dB7tcVPQ85juFv9xx_A0lO72U1T_oU40LcTzFUno  
+INFO  2017-07-08 16:57:14,843 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.jquery.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.jquery.js'
+INFO  2017-07-08 16:57:14,843 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/abp.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\abp.js'
+DEBUG 2017-07-08 16:57:14,843 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:57:14,843 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.3437ms 200 application/javascript
+DEBUG 2017-07-08 16:57:14,847 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:57:14,847 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.566ms 200 application/javascript
+INFO  2017-07-08 16:57:15,135 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js?v=ImopdkB8alCil1HigOwW3CDqWKsLZXyplf7TXBbjRnE  
+INFO  2017-07-08 16:57:15,136 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.toastr.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.toastr.js'
+INFO  2017-07-08 16:57:15,136 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js?v=RJuGDX616JN_UziXsmKnth0alpECKCx0gtxKZVrZWxY  
+INFO  2017-07-08 16:57:15,137 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.spin.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.spin.js'
+DEBUG 2017-07-08 16:57:15,138 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:15,138 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.7168ms 200 application/javascript
+DEBUG 2017-07-08 16:57:15,146 [21   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:57:15,146 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 9.6655ms 200 application/javascript
+INFO  2017-07-08 16:57:15,152 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js?v=pHFl_MDwwZLcdWvFBdIWQRNd1TYnlLqWz81WI3l1bNA  
+INFO  2017-07-08 16:57:15,153 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js?v=Y3zoG-hSFKmbS3BHKo_wFWRPbyzJXKoNrnF73uFdtqU  
+INFO  2017-07-08 16:57:15,153 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.sweet-alert.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.sweet-alert.js'
+INFO  2017-07-08 16:57:15,154 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/abp-web-resources/Abp/Framework/scripts/libs/abp.blockUI.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\abp-web-resources\Abp\Framework\scripts\libs\abp.blockUI.js'
+DEBUG 2017-07-08 16:57:15,154 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:57:15,154 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.4505ms 200 application/javascript
+DEBUG 2017-07-08 16:57:15,155 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:57:15,155 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.9537ms 200 application/javascript
+INFO  2017-07-08 16:57:15,162 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js?v=tVnerWKWo6Bi-SXoAqQMoiI16S5Ta0AzFUZerddubZE  
+INFO  2017-07-08 16:57:15,162 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\js\admin.js'
+DEBUG 2017-07-08 16:57:15,166 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:57:15,166 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4.4949ms 200 application/javascript
+INFO  2017-07-08 16:57:15,169 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/main.js?v=NLQ67WPST5q5HyOztusW745VOFFu6b_jB_lyxAICdFU  
+INFO  2017-07-08 16:57:15,169 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/main.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\js\main.js'
+DEBUG 2017-07-08 16:57:15,170 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:15,170 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1.7631ms 200 application/javascript
+INFO  2017-07-08 16:57:15,176 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636351297948650022  
+DEBUG 2017-07-08 16:57:15,177 [20   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2017-07-08 16:57:15,177 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:57:15,177 [20   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:57:15,177 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:57:15,189 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2017-07-08 16:57:15,207 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/Components/TenantChange/Default.js  
+INFO  2017-07-08 16:57:15,226 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636351297948650022  
+DEBUG 2017-07-08 16:57:15,227 [21   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2017-07-08 16:57:15,227 [21   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:57:15,227 [21   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:57:15,227 [21   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:57:15,236 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2017-07-08 16:57:15,249 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-07-08 16:57:15,260 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/Components/TenantChange/Default.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Shared\Components\TenantChange\Default.js'
+DEBUG 2017-07-08 16:57:15,261 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:15,261 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 54.6616ms 200 application/javascript
+INFO  2017-07-08 16:57:15,304 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Account/Login.js?v=o2PUQBkwW7VjtzD5RNxKPa3oShr3fMFHds_2dwIAV5M  
+INFO  2017-07-08 16:57:15,305 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Account/Login.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Account\Login.js'
+DEBUG 2017-07-08 16:57:15,306 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:15,307 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 2.3541ms 200 application/javascript
+INFO  2017-07-08 16:57:15,338 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2017-07-08 16:57:15,638 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2017-07-08 16:57:15,658 [21   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:57:15,658 [21   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 422.0966ms
+DEBUG 2017-07-08 16:57:15,659 [21   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:57:15,659 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 432.711ms 200 application/x-javascript; charset=utf-8
+DEBUG 2017-07-08 16:57:15,828 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2017-07-08 16:57:15,856 [20   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:57:15,862 [20   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2017-07-08 16:57:15,863 [20   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:57:15,871 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 682.2199ms
+DEBUG 2017-07-08 16:57:15,872 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:57:15,872 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 695.4303ms 200 text/javascript; charset=utf-8
+INFO  2017-07-08 16:57:15,976 [21   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2  
+INFO  2017-07-08 16:57:15,976 [3    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2  
+INFO  2017-07-08 16:57:15,979 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/fonts/material-icons/materialicons.woff2  
+INFO  2017-07-08 16:57:15,979 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/material-icons/materialicons.woff2'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\fonts\material-icons\materialicons.woff2'
+INFO  2017-07-08 16:57:16,013 [3    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\fonts\roboto\d-6IYplOFocCacKzxwXSOFtXRa8TVwTICgirnJhmVJw.woff2'
+INFO  2017-07-08 16:57:16,021 [21   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/fonts/roboto/CWB0XYA8bzo0kSThX0UTuA.woff2'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\fonts\roboto\CWB0XYA8bzo0kSThX0UTuA.woff2'
+DEBUG 2017-07-08 16:57:16,044 [15   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:57:16,044 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 64.998ms 200 application/font-woff2
+DEBUG 2017-07-08 16:57:16,045 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:57:16,045 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 69.6301ms 200 application/font-woff2
+DEBUG 2017-07-08 16:57:16,046 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:57:16,046 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 70.5364ms 200 application/font-woff2
+INFO  2017-07-08 16:57:16,131 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png  
+INFO  2017-07-08 16:57:16,131 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/famfamfam-flags/dist/sprite/famfamfam-flags.png'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\famfamfam-flags\dist\sprite\famfamfam-flags.png'
+DEBUG 2017-07-08 16:57:16,176 [19   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:57:16,176 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 45.6926ms 200 image/png
+INFO  2017-07-08 16:57:58,137 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+DEBUG 2017-07-08 16:57:58,137 [14   ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2017-07-08 16:57:58,137 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:57:58,137 [14   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:57:58,137 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:57:58,146 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc)
+DEBUG 2017-07-08 16:57:58,160 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:57:58,166 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:57:58,169 [14   ] .Antiforgery.Internal.DefaultAntiforgery - Antiforgery successfully validated a request.
+INFO  2017-07-08 16:57:58,304 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) with arguments (D2D.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2017-07-08 16:57:58,791 [19   ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+INFO  2017-07-08 16:58:00,211 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+DEBUG 2017-07-08 16:58:00,212 [15   ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2017-07-08 16:58:00,212 [15   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:00,212 [15   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:00,212 [15   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:00,220 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc)
+DEBUG 2017-07-08 16:58:00,221 [15   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:00,221 [15   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:00,221 [15   ] .Antiforgery.Internal.DefaultAntiforgery - Antiforgery successfully validated a request.
+INFO  2017-07-08 16:58:00,242 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) with arguments (D2D.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+WARN  2017-07-08 16:58:00,568 [3    ] icrosoft.AspNetCore.Identity.UserManager - Invalid password for user 1.
+WARN  2017-07-08 16:58:01,416 [20   ] D2D.Authorization.Users.UserStore        - Abp.Domain.Uow.AbpDbConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. ---> Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeResultSetWithoutPropagationAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__6`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.AbpDbContext.<SaveChangesAsync>d__36.MoveNext()
+   --- End of inner exception stack trace ---
+   at Abp.EntityFrameworkCore.AbpDbContext.<SaveChangesAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesInDbContextAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.Users.AbpUserStore`2.<UpdateAsync>d__36.MoveNext()
+Abp.Domain.Uow.AbpDbConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions. ---> Microsoft.EntityFrameworkCore.DbUpdateConcurrencyException: Database operation expected to affect 1 row(s) but actually affected 0 row(s). Data may have been modified or deleted since entities were loaded. See http://go.microsoft.com/fwlink/?LinkId=527962 for information on understanding and handling optimistic concurrency exceptions.
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.ThrowAggregateUpdateConcurrencyException(Int32 commandIndex, Int32 expectedRowsAffected, Int32 rowsAffected)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeResultSetWithoutPropagationAsync>d__6.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.AffectedCountModificationCommandBatch.<ConsumeAsync>d__2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.<ExecuteAsync>d__32.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.<ExecuteAsync>d__10.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.SqlServerExecutionStrategy.<ExecuteAsync>d__6`2.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__54.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.<SaveChangesAsync>d__52.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.EntityFrameworkCore.DbContext.<SaveChangesAsync>d__35.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.AbpDbContext.<SaveChangesAsync>d__36.MoveNext()
+   --- End of inner exception stack trace ---
+   at Abp.EntityFrameworkCore.AbpDbContext.<SaveChangesAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesInDbContextAsync>d__20.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.EntityFrameworkCore.Uow.EfCoreUnitOfWork.<SaveChangesAsync>d__12.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.Users.AbpUserStore`2.<UpdateAsync>d__36.MoveNext()
+WARN  2017-07-08 16:58:01,699 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Microsoft.AspNetCore.Identity.IdentityError
+Abp.UI.UserFriendlyException: Microsoft.AspNetCore.Identity.IdentityError
+   at Abp.IdentityFramework.IdentityResultExtensions.CheckErrors(IdentityResult identityResult)
+   at Abp.Authorization.AbpLogInManager`3.<TryLockOutAsync>d__40.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AbpLogInManager`3.<LoginAsyncInternal>d__37.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Authorization.AbpLogInManager`3.<LoginAsync>d__36.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at D2D.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\Controllers\AccountController.cs:line 119
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at D2D.Web.Controllers.AccountController.<Login>d__13.MoveNext() in D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<CastToObject>d__38`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+DEBUG 2017-07-08 16:58:01,717 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Request was short circuited at exception filter 'Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter'.
+DEBUG 2017-07-08 16:58:01,718 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:58:01,719 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response.
+INFO  2017-07-08 16:58:01,719 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:58:01,746 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) in 1525.2706ms
+DEBUG 2017-07-08 16:58:01,747 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:01,747 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1535.4009ms 500 application/json; charset=utf-8
+WARN  2017-07-08 16:58:02,277 [14   ] Mvc.ExceptionHandling.AbpExceptionFilter - Login failed!
+Abp.UI.UserFriendlyException: Login failed!
+   at D2D.Web.Controllers.AccountController.<GetLoginResultAsync>d__15.MoveNext() in D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\Controllers\AccountController.cs:line 126
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at System.Runtime.CompilerServices.TaskAwaiter`1.GetResult()
+   at D2D.Web.Controllers.AccountController.<Login>d__13.MoveNext() in D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\Controllers\AccountController.cs:line 102
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Abp.Threading.InternalAsyncHelper.<AwaitTaskWithPostActionAndFinallyAndGetResult>d__5`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ObjectMethodExecutor.<CastToObject>d__38`1.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeActionMethodAsync>d__27.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at System.Runtime.CompilerServices.TaskAwaiter.HandleNonSuccessAndDebuggerNotification(Task task)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextActionFilterAsync>d__25.MoveNext()
+--- End of stack trace from previous location where exception was thrown ---
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.<InvokeNextExceptionFilterAsync>d__24.MoveNext()
+DEBUG 2017-07-08 16:58:02,287 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Request was short circuited at exception filter 'Abp.AspNetCore.Mvc.ExceptionHandling.AbpExceptionFilter'.
+DEBUG 2017-07-08 16:58:02,287 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:58:02,287 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter' and content type 'application/json' to write the response.
+INFO  2017-07-08 16:58:02,288 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:58:02,288 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) in 4140.6697ms
+DEBUG 2017-07-08 16:58:02,288 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:58:02,289 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 4151.0721ms 500 application/json; charset=utf-8
+INFO  2017-07-08 16:58:05,944 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+DEBUG 2017-07-08 16:58:05,944 [20   ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2017-07-08 16:58:05,944 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:05,944 [20   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:05,944 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:05,951 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc)
+DEBUG 2017-07-08 16:58:05,951 [20   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:05,951 [20   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:05,951 [20   ] .Antiforgery.Internal.DefaultAntiforgery - Antiforgery successfully validated a request.
+INFO  2017-07-08 16:58:05,969 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) with arguments (D2D.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+DEBUG 2017-07-08 16:58:06,953 [20   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:06,964 [20   ] n.Cookies.CookieAuthenticationMiddleware - AuthenticationScheme: Identity.Application signed in.
+DEBUG 2017-07-08 16:58:06,967 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2017-07-08 16:58:06,968 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 POST http://localhost:62114/Account/Login application/x-www-form-urlencoded 256
+DEBUG 2017-07-08 16:58:06,968 [4    ] NetCore.StaticFiles.StaticFileMiddleware - POST requests are not supported
+DEBUG 2017-07-08 16:58:06,968 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:06,968 [4    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:06,968 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:06,975 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc)
+DEBUG 2017-07-08 16:58:06,975 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:06,975 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:06,975 [4    ] .Antiforgery.Internal.DefaultAntiforgery - Antiforgery successfully validated a request.
+INFO  2017-07-08 16:58:07,000 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) with arguments (D2D.Web.Models.Account.LoginViewModel, /, ) - ModelState is Valid
+INFO  2017-07-08 16:58:07,089 [4    ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2017-07-08 16:58:07,091 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) in 1140.1271ms
+DEBUG 2017-07-08 16:58:07,091 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:07,091 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1147.4871ms 200 application/json; charset=utf-8
+DEBUG 2017-07-08 16:58:07,163 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:07,163 [14   ] n.Cookies.CookieAuthenticationMiddleware - AuthenticationScheme: Identity.Application signed in.
+DEBUG 2017-07-08 16:58:07,164 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.JsonResult.
+INFO  2017-07-08 16:58:07,205 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2017-07-08 16:58:07,207 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:07,296 [20   ] matters.Json.Internal.JsonResultExecutor - Executing JsonResult, writing value Abp.Web.Models.AjaxResponse.
+INFO  2017-07-08 16:58:07,296 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.AccountController.Login (D2D.Web.Mvc) in 321.7514ms
+DEBUG 2017-07-08 16:58:07,297 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:58:07,297 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 329.3626ms 200 application/json; charset=utf-8
+INFO  2017-07-08 16:58:07,313 [4    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:07,313 [4    ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2017-07-08 16:58:07,313 [4    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:07,316 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc)
+INFO  2017-07-08 16:58:07,340 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2017-07-08 16:58:07,341 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:07,353 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:07,353 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2017-07-08 16:58:07,353 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:07,355 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc)
+INFO  2017-07-08 16:58:07,369 [4    ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-07-08 16:58:07,369 [14   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-07-08 16:58:07,375 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2017-07-08 16:58:07,376 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+INFO  2017-07-08 16:58:07,377 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2017-07-08 16:58:07,377 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2017-07-08 16:58:07,386 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'Home'.
+DEBUG 2017-07-08 16:58:07,402 [4    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'Home'.
+DEBUG 2017-07-08 16:58:07,422 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:07,491 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Home/Index.cshtml' completed in 68.415ms.
+DEBUG 2017-07-08 16:58:07,491 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:07,727 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Home/Index.cshtml' completed in 235.6382ms.
+DEBUG 2017-07-08 16:58:07,729 [4    ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2017-07-08 16:58:07,729 [4    ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+DEBUG 2017-07-08 16:58:07,731 [10   ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2017-07-08 16:58:07,731 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+DEBUG 2017-07-08 16:58:07,864 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2017-07-08 16:58:07,910 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 45.3973ms.
+DEBUG 2017-07-08 16:58:07,910 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' started.
+DEBUG 2017-07-08 16:58:08,281 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/_Layout.cshtml' completed in 370.2818ms.
+DEBUG 2017-07-08 16:58:08,314 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:08,314 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:08,320 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:08,320 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:08,320 [4    ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2017-07-08 16:58:08,320 [10   ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2017-07-08 16:58:08,457 [21   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:08,458 [19   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:08,460 [21   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 2.6059ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:08,460 [19   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 2.538ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:08,460 [21   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:08,460 [19   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:08,463 [21   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:08,492 [21   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 28.7857ms.
+DEBUG 2017-07-08 16:58:08,492 [21   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:10,287 [21   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/TopBarLanguageSwitch/Default.cshtml' completed in 1794.6855ms.
+DEBUG 2017-07-08 16:58:10,307 [21   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:10,307 [19   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:10,331 [9    ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 23.6535ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:10,331 [9    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:10,335 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 27.3346ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:10,335 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:10,487 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:10,507 [9    ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 20.164ms.
+DEBUG 2017-07-08 16:58:10,507 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:10,583 [9    ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarUserArea/Default.cshtml' completed in 76.1744ms.
+DEBUG 2017-07-08 16:58:10,711 [9    ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Home).
+DEBUG 2017-07-08 16:58:10,711 [11   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Home).
+DEBUG 2017-07-08 16:58:13,308 [19   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 2596.3093ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:13,308 [19   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:13,316 [4    ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 2604.9776ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:13,316 [4    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:13,575 [19   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:13,820 [19   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 244.3509ms.
+DEBUG 2017-07-08 16:58:13,820 [19   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:13,925 [19   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/SideBarNav/Default.cshtml' completed in 104.4171ms.
+DEBUG 2017-07-08 16:58:13,944 [4    ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:13,944 [19   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:13,949 [19   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 4.4021ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:13,949 [4    ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 4.4482ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:13,949 [19   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:13,949 [4    ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:14,145 [19   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:14,264 [19   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 119.7063ms.
+DEBUG 2017-07-08 16:58:14,265 [19   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' started.
+DEBUG 2017-07-08 16:58:14,333 [19   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Shared/Components/RightSideBar/Default.cshtml' completed in 68.1596ms.
+INFO  2017-07-08 16:58:15,376 [19   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc) in 8020.8692ms
+DEBUG 2017-07-08 16:58:15,376 [19   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:58:15,376 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8036.5392ms 200 text/html; charset=utf-8
+INFO  2017-07-08 16:58:15,377 [4    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc) in 8061.3671ms
+DEBUG 2017-07-08 16:58:15,377 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" completed keep alive response.
+INFO  2017-07-08 16:58:15,377 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8172.9205ms 200 text/html; charset=utf-8
+DEBUG 2017-07-08 16:58:15,437 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" reset.
+DEBUG 2017-07-08 16:58:15,439 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" disconnecting.
+DEBUG 2017-07-08 16:58:15,443 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABB" stopped.
+INFO  2017-07-08 16:58:15,540 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/css/themes/all-themes.css?v=XaAlkmhL9gA6mBxpcxGYAWxggxkIpRmT9qGbKejs6eA  
+INFO  2017-07-08 16:58:15,540 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.css?v=szHusaozbQctTn4FX-3l5E0A5zoxz7-ne4fr8NgWJlw  
+INFO  2017-07-08 16:58:15,541 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/css/bootstrap-select.css?v=a7N4Jki3LzSbThclvqbu4nF45twcjuc772JGFhY9qwk  
+DEBUG 2017-07-08 16:58:15,541 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2017-07-08 16:58:15,541 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2017-07-08 16:58:15,541 [15   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,543 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.css?v=uq7unI_U0xZr0Pbyzeu6KfbJKHVFuv0wNJ4CrrhQknw  
+DEBUG 2017-07-08 16:58:15,543 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,552 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,553 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/css/themes/all-themes.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\css\themes\all-themes.css'
+INFO  2017-07-08 16:58:15,556 [4    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,557 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,557 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\morris.js\morris.css'
+INFO  2017-07-08 16:58:15,557 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.css'
+DEBUG 2017-07-08 16:58:15,557 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:15,558 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.9811ms 200 text/css
+DEBUG 2017-07-08 16:58:15,558 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:58:15,558 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.1785ms 200 text/css
+DEBUG 2017-07-08 16:58:15,569 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:15,569 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 28.9972ms 200 text/css
+INFO  2017-07-08 16:58:15,574 [15   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,574 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/css/bootstrap-select.css'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\bootstrap-select\dist\css\bootstrap-select.css'
+DEBUG 2017-07-08 16:58:15,580 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:58:15,580 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.666ms 200 text/css
+INFO  2017-07-08 16:58:15,605 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/bootstrap-select/dist/js/bootstrap-select.js?v=_KDPX2Vvqq8sySMxlLNJxt9j6Cmb8i_xp602ozhYxzI  
+DEBUG 2017-07-08 16:58:15,606 [4    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,615 [4    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,616 [4    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/bootstrap-select/dist/js/bootstrap-select.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\bootstrap-select\dist\js\bootstrap-select.js'
+DEBUG 2017-07-08 16:58:15,631 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:58:15,631 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 25.37ms 200 application/javascript
+INFO  2017-07-08 16:58:15,672 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-slimscroll/jquery.slimscroll.js?v=4K6ZHzwMYR5_eU2SeDIaByus_qki9IFY8hmxl5U6D1Y  
+DEBUG 2017-07-08 16:58:15,673 [11   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,682 [11   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,682 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-slimscroll/jquery.slimscroll.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\jquery-slimscroll\jquery.slimscroll.js'
+DEBUG 2017-07-08 16:58:15,684 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:15,684 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 11.4513ms 200 application/javascript
+INFO  2017-07-08 16:58:15,709 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/push.js/push.js?v=HDxbpm8oBKwe1bmX9Z1SahYYA7zEbc1dk7LfopvOvoE  
+DEBUG 2017-07-08 16:58:15,710 [20   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,718 [20   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,719 [20   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/push.js/push.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\push.js\push.js'
+DEBUG 2017-07-08 16:58:15,724 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:58:15,724 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.8543ms 200 application/javascript
+INFO  2017-07-08 16:58:15,745 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/js/admin.js  
+DEBUG 2017-07-08 16:58:15,746 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,751 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Shared/_Layout.js?v=jOYc7_5N1zFKt3qTihQ-9Kc0wjSMXkAeHUXNyvn8sYo  
+DEBUG 2017-07-08 16:58:15,752 [19   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,757 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/raphael/raphael.js?v=MPXjTSEImVJI1834JAHubdK7Lts1VTUPJmCQ9zKAjyA  
+INFO  2017-07-08 16:58:15,757 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,757 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/js/admin.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\js\admin.js'
+DEBUG 2017-07-08 16:58:15,757 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,757 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636351297948650022  
+DEBUG 2017-07-08 16:58:15,758 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,759 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-countTo/jquery.countTo.js?v=AGGYFLOyVnIKn_2UCDl9D_5VWf8wHWCOtm9YU0P9g6I  
+DEBUG 2017-07-08 16:58:15,759 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:15,759 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.7533ms 200 application/javascript
+DEBUG 2017-07-08 16:58:15,759 [15   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,762 [19   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,762 [19   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Shared/_Layout.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Shared\_Layout.js'
+INFO  2017-07-08 16:58:15,767 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:15,767 [16   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2017-07-08 16:58:15,767 [16   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:15,768 [16   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:15,768 [16   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:15,768 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" started.
+DEBUG 2017-07-08 16:58:15,769 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+DEBUG 2017-07-08 16:58:15,769 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:58:15,770 [4    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.5463ms 200 application/javascript
+INFO  2017-07-08 16:58:15,770 [15   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,770 [15   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-countTo/jquery.countTo.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\jquery-countTo\jquery.countTo.js'
+INFO  2017-07-08 16:58:15,772 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+INFO  2017-07-08 16:58:15,775 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636351297948650022  
+DEBUG 2017-07-08 16:58:15,775 [15   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:58:15,776 [15   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.953ms 200 application/javascript
+DEBUG 2017-07-08 16:58:15,777 [11   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,782 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,782 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/raphael/raphael.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\raphael\raphael.js'
+INFO  2017-07-08 16:58:15,788 [11   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:15,789 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2017-07-08 16:58:15,789 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:15,789 [11   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:15,789 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:15,791 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2017-07-08 16:58:15,793 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2017-07-08 16:58:15,793 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2017-07-08 16:58:15,794 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:58:15,794 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2017-07-08 16:58:15,794 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:58:15,794 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 3.4433ms
+DEBUG 2017-07-08 16:58:15,795 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" completed keep alive response.
+INFO  2017-07-08 16:58:15,795 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 19.6599ms 200 text/javascript; charset=utf-8
+INFO  2017-07-08 16:58:15,815 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/morris.js/morris.js?v=cQB75DEaDbn4oSiaWgdoh3TuZCHSO-kYdD_Ehka48Ro  
+DEBUG 2017-07-08 16:58:15,816 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,826 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,826 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/morris.js/morris.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\morris.js\morris.js'
+DEBUG 2017-07-08 16:58:15,829 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+DEBUG 2017-07-08 16:58:15,829 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:15,829 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.8611ms 200 application/javascript
+INFO  2017-07-08 16:58:15,829 [16   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:15,829 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 59.811ms
+DEBUG 2017-07-08 16:58:15,830 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:15,830 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 72.5395ms 200 application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:15,837 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/chart.js/dist/Chart.bundle.js?v=TQAtDUIU_0XtXZLNjMBV8noK8jNSngwHlgtC_PvsRAk  
+DEBUG 2017-07-08 16:58:15,837 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,848 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,848 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/chart.js/dist/Chart.bundle.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\chart.js\dist\Chart.bundle.js'
+DEBUG 2017-07-08 16:58:15,896 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:58:15,896 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 139.7236ms 200 application/javascript
+DEBUG 2017-07-08 16:58:15,897 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" completed keep alive response.
+INFO  2017-07-08 16:58:15,897 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 60.2815ms 200 application/javascript
+INFO  2017-07-08 16:58:15,897 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/font-awesome/fonts/fontawesome-webfont.woff2?v=4.6.3  
+DEBUG 2017-07-08 16:58:15,897 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,922 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,930 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.js?v=t7kx8nPDixJ3ucbB9OBcTsCYhaSHvdrzJ54tfkmjjhI  
+DEBUG 2017-07-08 16:58:15,931 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:15,942 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:15,942 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\Flot\jquery.flot.js'
+DEBUG 2017-07-08 16:58:15,969 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:15,969 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 38.8476ms 200 application/javascript
+INFO  2017-07-08 16:58:15,974 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\font-awesome\fonts\fontawesome-webfont.woff2'
+INFO  2017-07-08 16:58:16,015 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.resize.js?v=i59RRvMkqw-28mDu6YRzKo77gmM7k9aPZMtcw45wgu4  
+DEBUG 2017-07-08 16:58:16,015 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+DEBUG 2017-07-08 16:58:16,026 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:16,026 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 129.4176ms 200 application/font-woff2
+INFO  2017-07-08 16:58:16,028 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,028 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.resize.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\Flot\jquery.flot.resize.js'
+DEBUG 2017-07-08 16:58:16,029 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:58:16,029 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.6926ms 200 application/javascript
+INFO  2017-07-08 16:58:16,066 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.pie.js?v=RsEWYd9gdLG1bCIcU8j59Rkvf_1O7HtzoD1TRUs22cU  
+DEBUG 2017-07-08 16:58:16,067 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:16,078 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,078 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.pie.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\Flot\jquery.flot.pie.js'
+DEBUG 2017-07-08 16:58:16,079 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:16,079 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.4708ms 200 application/javascript
+INFO  2017-07-08 16:58:16,091 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.categories.js?v=boFmSyjqeVxzSQb0qhVhRkCnWsf705mn-5CEBAaYNRo  
+DEBUG 2017-07-08 16:58:16,091 [11   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:16,106 [11   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,106 [11   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.categories.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\Flot\jquery.flot.categories.js'
+DEBUG 2017-07-08 16:58:16,108 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:16,108 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 17.318ms 200 application/javascript
+INFO  2017-07-08 16:58:16,118 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/Flot/jquery.flot.time.js?v=pYLIMq3HE4prBar2HxbrrCdHAfG-Sv6nfnOaHDS5xBo  
+DEBUG 2017-07-08 16:58:16,119 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:16,130 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,130 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/Flot/jquery.flot.time.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\Flot\jquery.flot.time.js'
+DEBUG 2017-07-08 16:58:16,134 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:16,134 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.7284ms 200 application/javascript
+INFO  2017-07-08 16:58:16,136 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/lib/jquery-sparkline/dist/jquery.sparkline.js?v=k0LZZpXY4vJp6vbA5CL5bb20Ou0IO3Shz-J6U6Vq56c  
+DEBUG 2017-07-08 16:58:16,137 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:16,147 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,147 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/lib/jquery-sparkline/dist/jquery.sparkline.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\lib\jquery-sparkline\dist\jquery.sparkline.js'
+DEBUG 2017-07-08 16:58:16,151 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:16,152 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.9082ms 200 application/javascript
+INFO  2017-07-08 16:58:16,188 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Home/Index.js?v=tRGDdqeVjO63iaO1qvGPpKF2NuT2riEOyYovlY_otk0  
+DEBUG 2017-07-08 16:58:16,188 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:16,199 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,200 [9    ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Home/Index.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Home\Index.js'
+DEBUG 2017-07-08 16:58:16,201 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" completed keep alive response.
+INFO  2017-07-08 16:58:16,201 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 12.8358ms 200 application/javascript
+INFO  2017-07-08 16:58:16,215 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user.png  
+DEBUG 2017-07-08 16:58:16,216 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:16,225 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,226 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user.png'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\images\user.png'
+DEBUG 2017-07-08 16:58:16,374 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:16,374 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 159.0322ms 200 image/png
+INFO  2017-07-08 16:58:16,432 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/images/user-img-background.jpg  
+DEBUG 2017-07-08 16:58:16,433 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:16,443 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:16,443 [16   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/images/user-img-background.jpg'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\images\user-img-background.jpg'
+DEBUG 2017-07-08 16:58:16,475 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:16,475 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 43.5427ms 200 image/jpeg
+INFO  2017-07-08 16:58:27,087 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Tenants  
+DEBUG 2017-07-08 16:58:27,087 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:27,099 [16   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:27,099 [16   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /Tenants does not match a supported file type
+DEBUG 2017-07-08 16:58:27,100 [16   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:27,100 [16   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:27,100 [16   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:27,102 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.TenantsController.Index (D2D.Web.Mvc)
+INFO  2017-07-08 16:58:27,103 [16   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-07-08 16:58:27,141 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.TenantsController.Index (D2D.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2017-07-08 16:58:27,356 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.TenantsController.Index (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2017-07-08 16:58:27,370 [16   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'Tenants'.
+DEBUG 2017-07-08 16:58:27,371 [16   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Tenants/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:27,425 [16   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Tenants/Index.cshtml' completed in 54.2355ms.
+DEBUG 2017-07-08 16:58:27,425 [16   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Tenants/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:27,550 [16   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Tenants/Index.cshtml' completed in 124.2221ms.
+DEBUG 2017-07-08 16:58:27,551 [16   ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2017-07-08 16:58:27,551 [16   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Tenants/Index.cshtml.
+DEBUG 2017-07-08 16:58:27,580 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:27,580 [16   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:27,580 [16   ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2017-07-08 16:58:27,583 [16   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:27,584 [16   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 1.1041ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:27,584 [16   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'Tenants'.
+DEBUG 2017-07-08 16:58:27,589 [16   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:27,598 [16   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 8.2792ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:27,598 [16   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'Tenants'.
+DEBUG 2017-07-08 16:58:27,601 [16   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Tenants).
+DEBUG 2017-07-08 16:58:27,611 [16   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 9.8897ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:27,611 [16   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'Tenants'.
+DEBUG 2017-07-08 16:58:27,612 [16   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:27,612 [16   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 0.1607ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:27,612 [16   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'Tenants'.
+INFO  2017-07-08 16:58:27,629 [16   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.TenantsController.Index (D2D.Web.Mvc) in 527.5178ms
+DEBUG 2017-07-08 16:58:27,630 [16   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" completed keep alive response.
+INFO  2017-07-08 16:58:27,630 [16   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 543.1358ms 200 text/html; charset=utf-8
+INFO  2017-07-08 16:58:27,765 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636351297948650022  
+DEBUG 2017-07-08 16:58:27,765 [11   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:27,778 [11   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:27,778 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2017-07-08 16:58:27,778 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:27,778 [11   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:27,778 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:27,780 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2017-07-08 16:58:27,782 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2017-07-08 16:58:27,782 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2017-07-08 16:58:27,783 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:58:27,783 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2017-07-08 16:58:27,783 [11   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:58:27,783 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.8024ms
+DEBUG 2017-07-08 16:58:27,783 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:58:27,783 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 18.4598ms 200 text/javascript; charset=utf-8
+INFO  2017-07-08 16:58:27,834 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636351297948650022  
+DEBUG 2017-07-08 16:58:27,834 [20   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:27,844 [20   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:27,844 [20   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2017-07-08 16:58:27,845 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:27,845 [20   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:27,845 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:27,846 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2017-07-08 16:58:27,847 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+DEBUG 2017-07-08 16:58:27,874 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2017-07-08 16:58:27,874 [20   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:27,874 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.2939ms
+DEBUG 2017-07-08 16:58:27,875 [20   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:58:27,875 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 40.9861ms 200 application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:27,898 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Tenants/Index.js?v=wYDGzdluCjpjuyUjeJUcv_vXPNOoWKJZp2xxLHmWLH4  
+DEBUG 2017-07-08 16:58:27,899 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:27,910 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:27,910 [10   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Tenants/Index.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Tenants\Index.js'
+DEBUG 2017-07-08 16:58:27,912 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:27,912 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 13.1655ms 200 application/javascript
+INFO  2017-07-08 16:58:29,068 [20   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/Users  
+DEBUG 2017-07-08 16:58:29,068 [20   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:29,078 [20   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:29,078 [20   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /Users does not match a supported file type
+DEBUG 2017-07-08 16:58:29,078 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:29,078 [20   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:29,078 [20   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:29,081 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.UsersController.Index (D2D.Web.Mvc)
+INFO  2017-07-08 16:58:29,083 [20   ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-07-08 16:58:29,134 [20   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.UsersController.Index (D2D.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2017-07-08 16:58:29,267 [15   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.UsersController.Index (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2017-07-08 16:58:29,287 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'Users'.
+DEBUG 2017-07-08 16:58:29,288 [11   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Users/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:29,340 [11   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/Users/Index.cshtml' completed in 51.7192ms.
+DEBUG 2017-07-08 16:58:29,340 [11   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Users/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:29,460 [11   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/Users/Index.cshtml' completed in 120.2987ms.
+DEBUG 2017-07-08 16:58:29,461 [11   ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2017-07-08 16:58:29,461 [11   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Users/Index.cshtml.
+DEBUG 2017-07-08 16:58:29,491 [11   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:29,491 [11   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:29,491 [11   ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2017-07-08 16:58:29,493 [11   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:29,494 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 0.9931ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:29,494 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'Users'.
+DEBUG 2017-07-08 16:58:29,499 [11   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:29,503 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 3.7866ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:29,503 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'Users'.
+DEBUG 2017-07-08 16:58:29,504 [11   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Users).
+DEBUG 2017-07-08 16:58:29,514 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 9.9165ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:29,514 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'Users'.
+DEBUG 2017-07-08 16:58:29,515 [11   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:29,515 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 0.12ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:29,515 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'Users'.
+INFO  2017-07-08 16:58:29,535 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.UsersController.Index (D2D.Web.Mvc) in 453.9982ms
+DEBUG 2017-07-08 16:58:29,536 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:58:29,536 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 468.3811ms 200 text/html; charset=utf-8
+INFO  2017-07-08 16:58:29,651 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636351297948650022  
+DEBUG 2017-07-08 16:58:29,651 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:29,662 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:29,663 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2017-07-08 16:58:29,663 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:29,663 [14   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:29,663 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:29,664 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2017-07-08 16:58:29,665 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2017-07-08 16:58:29,666 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2017-07-08 16:58:29,666 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:58:29,666 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2017-07-08 16:58:29,666 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:58:29,666 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 1.9293ms
+DEBUG 2017-07-08 16:58:29,666 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:29,666 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 15.6827ms 200 text/javascript; charset=utf-8
+INFO  2017-07-08 16:58:29,684 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636351297948650022  
+DEBUG 2017-07-08 16:58:29,684 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:29,692 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:29,693 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2017-07-08 16:58:29,693 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:29,693 [10   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:29,693 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:29,694 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2017-07-08 16:58:29,696 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+DEBUG 2017-07-08 16:58:29,722 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2017-07-08 16:58:29,722 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:29,723 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 28.672ms
+DEBUG 2017-07-08 16:58:29,723 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" completed keep alive response.
+INFO  2017-07-08 16:58:29,723 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 39.8353ms 200 application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:29,741 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/view-resources/Views/Users/Index.js?v=HYPYJ5hU6O-QOAhY3pfaKIbvkkClpa3Ec6etImdrjPM  
+DEBUG 2017-07-08 16:58:29,742 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:29,748 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+INFO  2017-07-08 16:58:29,749 [14   ] NetCore.StaticFiles.StaticFileMiddleware - Sending file. Request path: '/view-resources/Views/Users/Index.js'. Physical path: 'D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc\wwwroot\view-resources\Views\Users\Index.js'
+DEBUG 2017-07-08 16:58:29,749 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:58:29,750 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 8.5686ms 200 application/javascript
+INFO  2017-07-08 16:58:31,762 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/About  
+DEBUG 2017-07-08 16:58:31,763 [11   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:31,776 [11   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:31,777 [11   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /About does not match a supported file type
+DEBUG 2017-07-08 16:58:31,777 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:31,777 [11   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:31,777 [11   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:31,780 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.AboutController.Index (D2D.Web.Mvc)
+INFO  2017-07-08 16:58:31,784 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.AboutController.Index (D2D.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2017-07-08 16:58:31,784 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.AboutController.Index (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2017-07-08 16:58:31,830 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Index' in controller 'About'.
+DEBUG 2017-07-08 16:58:31,831 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/About/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:31,888 [10   ] c.Razor.Internal.RazorCompilationService - Code generation for the Razor file at '/Views/About/Index.cshtml' completed in 56.8283ms.
+DEBUG 2017-07-08 16:58:31,888 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/About/Index.cshtml' started.
+DEBUG 2017-07-08 16:58:31,964 [10   ] Internal.DefaultRoslynCompilationService - Compilation of the generated code for the Razor file at '/Views/About/Index.cshtml' completed in 76.3497ms.
+DEBUG 2017-07-08 16:58:31,965 [10   ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2017-07-08 16:58:31,966 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/About/Index.cshtml.
+DEBUG 2017-07-08 16:58:31,977 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:31,977 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:31,977 [10   ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2017-07-08 16:58:31,979 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:31,980 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 1.2169ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:31,980 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/TopBarLanguageSwitch/Default' in controller 'About'.
+DEBUG 2017-07-08 16:58:31,985 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:31,990 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 4.5732ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:31,990 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarUserArea/Default' in controller 'About'.
+DEBUG 2017-07-08 16:58:31,992 [11   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (About).
+DEBUG 2017-07-08 16:58:32,001 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 9.0297ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:32,001 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/SideBarNav/Default' in controller 'About'.
+DEBUG 2017-07-08 16:58:32,002 [11   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:32,002 [11   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 0.1752ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:32,002 [11   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache miss for view 'Components/RightSideBar/Default' in controller 'About'.
+INFO  2017-07-08 16:58:32,006 [11   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.AboutController.Index (D2D.Web.Mvc) in 226.2684ms
+DEBUG 2017-07-08 16:58:32,007 [11   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" completed keep alive response.
+INFO  2017-07-08 16:58:32,007 [11   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 245.0914ms 200 text/html; charset=utf-8
+INFO  2017-07-08 16:58:32,120 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636351297948650022  
+DEBUG 2017-07-08 16:58:32,121 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:32,131 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:32,132 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2017-07-08 16:58:32,132 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:32,132 [14   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:32,132 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:32,133 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2017-07-08 16:58:32,136 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2017-07-08 16:58:32,136 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2017-07-08 16:58:32,136 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:58:32,136 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2017-07-08 16:58:32,136 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:58:32,136 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.8563ms
+DEBUG 2017-07-08 16:58:32,137 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" completed keep alive response.
+INFO  2017-07-08 16:58:32,137 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 16.7823ms 200 text/javascript; charset=utf-8
+INFO  2017-07-08 16:58:32,159 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636351297948650022  
+DEBUG 2017-07-08 16:58:32,159 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:32,168 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:32,169 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2017-07-08 16:58:32,169 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:32,169 [9    ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:32,169 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:32,171 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2017-07-08 16:58:32,174 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+DEBUG 2017-07-08 16:58:32,202 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2017-07-08 16:58:32,203 [9    ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:32,203 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 32.0053ms
+DEBUG 2017-07-08 16:58:32,203 [9    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" completed keep alive response.
+INFO  2017-07-08 16:58:32,203 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 44.7451ms 200 application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:35,244 [9    ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/  
+DEBUG 2017-07-08 16:58:35,245 [9    ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:35,257 [9    ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:35,257 [9    ] NetCore.StaticFiles.StaticFileMiddleware - The request path / does not match a supported file type
+DEBUG 2017-07-08 16:58:35,257 [9    ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:35,260 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc)
+INFO  2017-07-08 16:58:35,260 [9    ] uthorization.DefaultAuthorizationService - Authorization was successful for user: admin.
+INFO  2017-07-08 16:58:35,262 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc) with arguments ((null)) - ModelState is Valid
+DEBUG 2017-07-08 16:58:35,263 [9    ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc), returned result Microsoft.AspNetCore.Mvc.ViewResult.
+DEBUG 2017-07-08 16:58:35,295 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache hit for view 'Index' in controller 'Home'.
+DEBUG 2017-07-08 16:58:35,296 [10   ] ViewFeatures.Internal.ViewResultExecutor - The view 'Index' was found.
+INFO  2017-07-08 16:58:35,296 [10   ] ViewFeatures.Internal.ViewResultExecutor - Executing ViewResult, running view at path /Views/Home/Index.cshtml.
+DEBUG 2017-07-08 16:58:35,297 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:35,297 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing protect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Antiforgery.AntiforgeryToken.v1').
+DEBUG 2017-07-08 16:58:35,297 [10   ] .Antiforgery.Internal.DefaultAntiforgery - An antiforgery cookie token was reused.
+DEBUG 2017-07-08 16:58:35,299 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:35,302 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.TopBarLanguageSwitch.TopBarLanguageSwitchViewComponent in 2.8196ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:35,302 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache hit for view 'Components/TopBarLanguageSwitch/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:35,307 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:35,312 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarUserArea.SideBarUserAreaViewComponent in 4.5257ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:35,312 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache hit for view 'Components/SideBarUserArea/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:35,313 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent with arguments (Home).
+DEBUG 2017-07-08 16:58:35,328 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.SideBarNav.SideBarNavViewComponent in 14.1827ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:35,328 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache hit for view 'Components/SideBarNav/Default' in controller 'Home'.
+DEBUG 2017-07-08 16:58:35,328 [10   ] ewComponents.DefaultViewComponentInvoker - Executing view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent with arguments ().
+DEBUG 2017-07-08 16:58:35,329 [10   ] ewComponents.DefaultViewComponentInvoker - Executed view component D2D.Web.Views.Shared.Components.RightSideBar.RightSideBarViewComponent in 0.1494ms and returned Microsoft.AspNetCore.Mvc.ViewComponents.ViewViewComponentResult
+DEBUG 2017-07-08 16:58:35,329 [10   ] oft.AspNetCore.Mvc.Razor.RazorViewEngine - View lookup cache hit for view 'Components/RightSideBar/Default' in controller 'Home'.
+INFO  2017-07-08 16:58:35,334 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action D2D.Web.Controllers.HomeController.Index (D2D.Web.Mvc) in 74.5983ms
+DEBUG 2017-07-08 16:58:35,335 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" completed keep alive response.
+INFO  2017-07-08 16:58:35,335 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 90.6701ms 200 text/html; charset=utf-8
+INFO  2017-07-08 16:58:35,496 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpServiceProxies/GetAll?v=636351297948650022  
+DEBUG 2017-07-08 16:58:35,496 [14   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:35,506 [14   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:35,507 [14   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpServiceProxies/GetAll does not match a supported file type
+DEBUG 2017-07-08 16:58:35,507 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:35,507 [14   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:35,507 [14   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:35,508 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore)
+INFO  2017-07-08 16:58:35,510 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) with arguments (Abp.AspNetCore.Mvc.Proxying.ApiProxyGenerationModel) - ModelState is Valid
+DEBUG 2017-07-08 16:58:35,510 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ObjectResult.
+DEBUG 2017-07-08 16:58:35,510 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - No information found on request to perform content negotiation.
+DEBUG 2017-07-08 16:58:35,510 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter' and content type 'text/javascript' to write the response.
+INFO  2017-07-08 16:58:35,510 [14   ] etCore.Mvc.Internal.ObjectResultExecutor - Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext.
+INFO  2017-07-08 16:58:35,510 [14   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Proxying.AbpServiceProxiesController.GetAll (Abp.AspNetCore) in 2.0271ms
+DEBUG 2017-07-08 16:58:35,511 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" completed keep alive response.
+INFO  2017-07-08 16:58:35,511 [14   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 14.8946ms 200 text/javascript; charset=utf-8
+INFO  2017-07-08 16:58:35,536 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:62114/AbpScripts/GetScripts?v=636351297948650022  
+DEBUG 2017-07-08 16:58:35,536 [10   ] .KeyManagement.KeyRingBasedDataProtector - Performing unprotect operation to key {0c155c09-318c-4c6b-bf44-b0f58dad26e1} with purposes ('D:\Git\WebProjects\D2D\D2D\src\D2D.Web.Mvc', 'Microsoft.AspNetCore.Authentication.Cookies.CookieAuthenticationMiddleware', 'Identity.Application', 'v2').
+INFO  2017-07-08 16:58:35,547 [10   ] n.Cookies.CookieAuthenticationMiddleware - HttpContext.User merged via AutomaticAuthentication from authenticationScheme: Identity.Application.
+DEBUG 2017-07-08 16:58:35,547 [10   ] NetCore.StaticFiles.StaticFileMiddleware - The request path /AbpScripts/GetScripts does not match a supported file type
+DEBUG 2017-07-08 16:58:35,547 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'defaultWithArea' and template '{area}/{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:35,547 [10   ] .AspNetCore.Mvc.Internal.MvcRouteHandler - No actions matched the current request
+DEBUG 2017-07-08 16:58:35,547 [10   ] Microsoft.AspNetCore.Routing.RouteBase   - Request successfully matched the route with name 'default' and template '{controller=Home}/{action=Index}/{id?}'.
+DEBUG 2017-07-08 16:58:35,553 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore)
+INFO  2017-07-08 16:58:35,556 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executing action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) with arguments () - ModelState is Valid
+DEBUG 2017-07-08 16:58:35,599 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action method Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore), returned result Microsoft.AspNetCore.Mvc.ContentResult.
+INFO  2017-07-08 16:58:35,600 [10   ] tCore.Mvc.Internal.ContentResultExecutor - Executing ContentResult with HTTP Response ContentType of application/x-javascript; charset=utf-8
+INFO  2017-07-08 16:58:35,601 [10   ] ore.Mvc.Internal.ControllerActionInvoker - Executed action Abp.AspNetCore.Mvc.Controllers.AbpScriptsController.GetScripts (Abp.AspNetCore) in 47.5653ms
+DEBUG 2017-07-08 16:58:35,602 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" completed keep alive response.
+INFO  2017-07-08 16:58:35,602 [10   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 66.1048ms 200 application/x-javascript; charset=utf-8
+DEBUG 2017-07-08 17:00:32,321 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" disconnecting.
+DEBUG 2017-07-08 17:00:32,321 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" disconnecting.
+DEBUG 2017-07-08 17:00:32,321 [21   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" disconnecting.
+DEBUG 2017-07-08 17:00:32,321 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" sending FIN.
+DEBUG 2017-07-08 17:00:32,321 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" sending FIN.
+DEBUG 2017-07-08 17:00:32,323 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" sending FIN.
+DEBUG 2017-07-08 17:00:32,326 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" sent FIN with status "0".
+DEBUG 2017-07-08 17:00:32,326 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" sent FIN with status "0".
+DEBUG 2017-07-08 17:00:32,326 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB6" stopped.
+DEBUG 2017-07-08 17:00:32,326 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABA" stopped.
+DEBUG 2017-07-08 17:00:32,326 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" sent FIN with status "0".
+DEBUG 2017-07-08 17:00:32,326 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB9" stopped.
+DEBUG 2017-07-08 17:00:36,320 [14   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" disconnecting.
+DEBUG 2017-07-08 17:00:36,320 [4    ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" disconnecting.
+DEBUG 2017-07-08 17:00:36,320 [10   ] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" disconnecting.
+DEBUG 2017-07-08 17:00:36,320 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" sending FIN.
+DEBUG 2017-07-08 17:00:36,320 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" sending FIN.
+DEBUG 2017-07-08 17:00:36,320 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" sending FIN.
+DEBUG 2017-07-08 17:00:36,320 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" sent FIN with status "0".
+DEBUG 2017-07-08 17:00:36,320 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB7" stopped.
+DEBUG 2017-07-08 17:00:36,320 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" sent FIN with status "0".
+DEBUG 2017-07-08 17:00:36,320 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHABC" stopped.
+DEBUG 2017-07-08 17:00:36,321 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" sent FIN with status "0".
+DEBUG 2017-07-08 17:00:36,321 [libuv] Microsoft.AspNetCore.Server.Kestrel      - Connection id "0HL65NMVGHAB8" stopped.
