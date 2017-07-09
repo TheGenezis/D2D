@@ -12,9 +12,10 @@ using D2D.Tasks;
 namespace D2D.Migrations
 {
     [DbContext(typeof(D2DDbContext))]
-    partial class D2DDbContextModelSnapshot : ModelSnapshot
+    [Migration("20170708054004_Tasks")]
+    partial class Tasks
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
             modelBuilder
                 .HasAnnotation("ProductVersion", "1.1.2")

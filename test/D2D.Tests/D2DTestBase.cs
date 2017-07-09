@@ -12,6 +12,7 @@ using D2D.EntityFrameworkCore;
 using D2D.EntityFrameworkCore.Seed.Host;
 using D2D.EntityFrameworkCore.Seed.Tenants;
 using D2D.MultiTenancy;
+using D2D.Tests.TestDatas;
 using Microsoft.EntityFrameworkCore;
 
 
@@ -44,6 +45,9 @@ namespace D2D.Tests
                 NormalizeDbContext(context);
                 new TenantRoleAndUserBuilder(context, 1).Create();
             });
+
+            //Seed initial data for Tasks   
+            UsingDbContext(context => new TestDataBuilder(context).Build());
 
             LoginAsDefaultTenantAdmin();
         }

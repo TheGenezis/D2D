@@ -9,6 +9,9 @@ using Abp.Zero.Configuration;
 using D2D.EntityFrameworkCore;
 using D2D.Tests.DependencyInjection;
 using Castle.MicroKernel.Registration;
+using Castle.Windsor.MsDependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
 using NSubstitute;
 
 namespace D2D.Tests
@@ -29,9 +32,12 @@ namespace D2D.Tests
         {
             Configuration.UnitOfWork.Timeout = TimeSpan.FromMinutes(30);
 
+            //EF Core InMemory DB does not support transactions.
+            Configuration.UnitOfWork.IsTransactional = false;
+
             //Disable static mapper usage since it breaks unit tests (see https://github.com/aspnetboilerplate/aspnetboilerplate/issues/2052)
             Configuration.Modules.AbpAutoMapper().UseStaticMapper = false;
-
+            
             Configuration.BackgroundJobs.IsJobExecutionEnabled = false;
 
             //Use database for language management

@@ -5,12 +5,14 @@ using D2D.Configuration;
 using D2D.Identity;
 using D2D.Web.Resources;
 using Castle.Facilities.Logging;
+using D2D.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
+using Microsoft.EntityFrameworkCore;
 
 #if FEATURE_SIGNALR
 using Owin;
@@ -31,6 +33,8 @@ namespace D2D.Web.Startup
 
         public IServiceProvider ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<D2DDbContext>(opt => opt.UseInMemoryDatabase());
+
             //MVC
             services.AddMvc(options =>
             {
