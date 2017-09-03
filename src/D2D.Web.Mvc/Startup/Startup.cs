@@ -7,12 +7,14 @@ using D2D.Web.Resources;
 using Castle.Facilities.Logging;
 using D2D.EntityFrameworkCore;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore;
+using React.AspNet;
 
 #if FEATURE_SIGNALR
 using Owin;
@@ -35,11 +37,14 @@ namespace D2D.Web.Startup
         {
             services.AddDbContext<D2DDbContext>(opt => opt.UseInMemoryDatabase());
 
-            //MVC
+            //Add framework services.
             services.AddMvc(options =>
             {
                 options.Filters.Add(new AutoValidateAntiforgeryTokenAttribute());
             });
+
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            services.AddReact();
 
             IdentityRegistrar.Register(services);
 
@@ -69,6 +74,30 @@ namespace D2D.Web.Startup
             }
 
             AuthConfigurer.Configure(app, _appConfiguration);
+
+            // Initialise ReactJS.NET. Must be before static files.
+            app.UseReact(config =>
+            {
+                config
+                    .AddScript("~/view-resources/Views/About/remarkable.min.js")
+                    .AddScript("~/view-resources/Views/About/about.jsx");
+
+            // If you want to use server-side rendering of React components,
+            // add all the necessary JavaScript files here. This includes
+            // your components as well as all of their dependencies.
+            // See http://reactjs.net/ for more information. Example:
+            //config
+            //  .AddScript("~/Scripts/First.jsx")
+            //  .AddScript("~/Scripts/Second.jsx");
+
+            // If you use an external build too (for example, Babel, Webpack,
+            // Browserify or Gulp), you can improve performance by disabling
+            // ReactJS.NET's version of Babel and loading the pre-transpiled
+            // scripts. Example:
+            //config
+            //  .SetLoadBabel(false)
+            //  .AddScriptWithoutTransform("~/Scripts/bundle.server.js");
+        });
 
             app.UseStaticFiles();
 

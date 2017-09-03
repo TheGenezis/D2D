@@ -138,5 +138,11 @@
     "inputFiles": [
       "wwwroot/view-resources/Views/Shared/Components/TenantChange/Default.js"
     ]
+  },
+  {
+    "outputFileName": "wwwroot/view-resources/Views/Tasks/Index.min.js",
+    "inputFiles": [
+      "wwwroot/view-resources/Views/Tasks/Index.js"
+    ]
   }
 ]

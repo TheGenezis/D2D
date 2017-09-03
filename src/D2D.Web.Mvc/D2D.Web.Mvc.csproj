@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
   <PropertyGroup>
     <TargetFramework>netcoreapp1.1</TargetFramework>
     <PackageTargetFallback>$(PackageTargetFallback);dotnet5.6;portable-net45+win8</PackageTargetFallback>
@@ -13,7 +13,9 @@
     <DefineConstants>FEATURE_SIGNALR</DefineConstants>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="wwwroot\view-resources\Views\About\about.jsx" />
     <Content Include="wwwroot\view-resources\Views\Shared\_Layout.js" />
+    <Content Include="wwwroot\view-resources\Views\Tasks\Index.js" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
@@ -32,6 +34,7 @@
     <ProjectReference Include="..\D2D.Web.Core\D2D.Web.Core.csproj" />
   </ItemGroup>
   <ItemGroup>
+    <PackageReference Include="BuildBundlerMinifier" Version="2.4.337" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.1">
       <PrivateAssets>All</PrivateAssets>
     </PackageReference>
@@ -51,6 +54,7 @@
     <PackageReference Include="Abp.HangFire" Version="2.1.2" />
     <PackageReference Include="Abp.RedisCache" Version="2.1.2" />
     <PackageReference Include="Abp.Castle.Log4Net" Version="2.1.2" />
+    <PackageReference Include="React.AspNet" Version="3.1.0" />
   </ItemGroup>
   <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
     <Reference Include="System" />
@@ -62,6 +66,7 @@
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="Views\Tasks\" />
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
     <Folder Include="wwwroot\view-resources\Views\_Bundles\" />
   </ItemGroup>

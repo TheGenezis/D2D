@@ -38,6 +38,13 @@ namespace D2D.Web.Startup
                     )
                 ).AddItem(
                     new MenuItemDefinition(
+                        PageNames.TaskList,
+                        L("TaskList"),
+                        url: "Tasks",
+                        icon: "info"
+                    )
+                ).AddItem(
+                    new MenuItemDefinition(
                         PageNames.About,
                         L("About"),
                         url: "About",

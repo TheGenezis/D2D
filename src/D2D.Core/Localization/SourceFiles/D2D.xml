@@ -67,5 +67,9 @@
     <text name="SuccessfullyRegistered">Successfully registered</text>
     <text name="WaitingForEmailActivation">Your email address should be activated</text>
 
+	  <text name="TaskState_Open" value="Open" />
+	  <text name="TaskState_Completed" value="Completed" />
+	  <text name="TaskList" value="Task List" />
+    
   </texts>
 </localizationDictionary>
